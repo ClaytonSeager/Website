@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .glitch-text {
+            font-size: 36px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .glitch-text::before,
+        .glitch-text::after {
+            content: attr(data-text);
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0.7;
+        }
+
+        .glitch-text::before {
+            animation: glitch 0.3s infinite alternate-reverse;
+        }
+
+        .glitch-text::after {
+            animation: glitch 0.5s infinite alternate-reverse;
+        }
+
+        @keyframes glitch {
+            0% {
+                clip: rect(46px, 9999px, 45px, 0);
+                transform: translate(-5px, 0);
+                color: red;
+            }
+            5% {
+                clip: rect(5px, 9999px, 100px, 0);
+                transform: translate(-5px, 0);
+                color: green;
+            }
+            10% {
+                clip: rect(30px, 9999px, 25px, 0);
+                transform: translate(5px, 0);
+                color: blue;
+            }
+            15% {
+                clip: rect(85px, 9999px, 10px, 0);
+                transform: translate(-2px, 0);
+                color: yellow;
+            }
+            20% {
+                clip: rect(76px, 9999px, 31px, 0);
+                transform: translate(2px, 0);
+                color: pink;
+            }
+            25% {
+                clip: rect(24px, 9999px, 30px, 0);
+                transform: translate(2px, 0);
+                color: cyan;
+            }
+            30% {
+                clip: rect(5px, 9999px, 65px, 0);
+                transform: translate(2px, 0);
+                color: orange;
+            }
+            35% {
+                clip: rect(95px, 9999px, 24px, 0);
+                transform: translate(-2px, 0);
+                color: purple;
+            }
+            40% {
+                clip: rect(28px, 9999px, 47px, 0);
+                transform: translate(5px, 0);
+                color: brown;
+            }
+            45% {
+                clip: rect(20px, 9999px, 57px, 0);
+                transform: translate(-5px, 0);
+                color: gray;
+            }
+            50% {
+                clip: rect(45px, 9999px, 30px, 0);
+                transform: translate(-2px, 0);
+                color: lime;
+            }
+            55% {
+                clip: rect(60px, 9999px, 3px, 0);
+                transform: translate(2px, 0);
+                color: indigo;
+            }
+            60% {
+                clip: rect(55px, 9999px, 70px, 0);
+                transform: translate(5px, 0);
+                color: red;
+            }
+            100% {
+                clip: rect(0, 9999px, 95px, 0);
+                transform: translate(0, 0);
+                color: initial;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="glitch-text" data-text="Glitch Text">Glitch Text</div>
+</body>
+</html>

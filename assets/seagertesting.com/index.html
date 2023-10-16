@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clayton Seagers Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+            integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <aside>
+            <div class="aside-logo">
+                <img src="./images/HS_Clayton.PNG" alt="Headshot Photo of Clayton Seager">
+            </div>
+            <nav id="secondary-nav">
+                <ul class="secondary-nav__list">
+                    <li class="secondary-nav__item"><a href="#home" class="secondary-nav__link">Home</a></li>
+                    <li class="secondary-nav__item"><a href="#services" class="secondary-nav__link">What I Do</a></li>
+                    <li class="secondary-nav__item"><a href="#certs" class="secondary-nav__link">Certifications</a></li>
+                    <li class="secondary-nav__item"><a href="#skills" class="secondary-nav__link">My Skills</a></li>
+                    <li class="secondary-nav__item"><a href="#about" class="secondary-nav__link">About Me</a></li>
+                    <li class="secondary-nav__item"><a href="#work" class="secondary-nav__link">My Work</a></li>
+
+                </ul>
+            </nav>
+        </aside>
+        <div class="main-content">
+            <header>
+                <div class="logo">
+                    <a href="index.html"><img src="images/mylogo.png" alt="<claytonseager>"></a>
+                </div>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">What I Do</a></li>
+                        <li class="nav__item"><a href="#certs" class="nav__link">Certifications</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!-- Introduction -->
+            <section class="intro" id="home">
+                <h1 class="section__title section__title--intro">
+                    Hello, I am <strong>Clayton Seager</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">Front-End Developer</p>
+                <img src="images/me.jpg" alt="A picture of Clayton and his wife" class="intro__img">
+            </section>
+
+            <!-- My Services -->
+            <section class="my-services wid-border" id="services">
+                <h2 class="section__title section__title--services">What I do</h2>
+                <div class="services">
+                    <div class="service">
+                        <h3 class="section__title--services-header">Automation Development</h3>
+                        <p class="section__paragraph-services">I have 6 years of experience in media production management, 4 years of experience in sales management,
+                            and 3 years of experience in website development. Recently I have taken an interest in UX/UI design and
+                            started to familiarize myself with multiple CMS systems. I continually work to develop my craft and have
+                            a drive for learning. </p>
+                    </div> <!-- My Services -->
+
+                    <div class="service">
+                        <h3 class="section__title--services-header">Cloud Transformation</h3>
+                        <p class="section__paragraph-services">Certified as a Google Cloud Digital Leader I can use the GCP platform and various Google Cloud tools to host websites,
+                            manage virtual servers and certificates, manage API deployments, and create data buckets. I have a growing knowledge in how digital transformation
+                            to the cloud can help reduce your costs, increase productivity, and increase digital security - for any type of business.</p>
+                    </div> <!-- My Services -->
+
+                    <div class="service">
+                        <h3 class="section__title--services-header">Frontend Development</h3>
+                        <p class="section__paragraph-services">Although most of my web development experience comes from using and managing CMS profiles, I have recently
+                        completed multiple website development courses, a Web Development bootcamp, and I am about to finish my first
+                        Web Development certificate through Mimo. I have a great understanding of the fundamentals of HTML5, and CSS3,
+                        and was able to construct this website with that knowledge.</p>
+                    </div> <!-- My Services -->
+                </div>
+
+                <a href="#work" class="btn">My Work</a>
+            </section>
+
+
+
+            <!-- THIS SECTION IS FOR MY CERTIFICATES -->
+            <section class="certificate-showcase" id="certs">
+                <h2 class="section__title section__title--certificates">Certifications</h2>
+                <div class="filter-controls">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="provider1">Google</button>
+                    <button class="filter-btn" data-filter="provider2">Nexthink</button>
+                    <button class="filter-btn" data-filter="provider3">Mimo</button>
+                </div>
+
+                <div class="certificate-list">
+                    <div class="certificate-item" data-filter="provider1">
+                        <a href="https://www.credential.net/8deee2b3-40c9-41c0-bd9e-4faa483d92c1">
+                        <img src="./images/certificates/Google_CDL_Badge.png" alt="Certificate 1" class="certificate-item__image">
+                        </a>
+                    </div>
+                    <div class="certificate-item" data-filter="provider2">
+                        <a href="https://www.seagertesting.com/certificates/Clayton_NexthinkIT_Certificate.pdf">
+                        <img src="./images/certificates/Nexthink_ITSupport_Badge.png" alt="Certificate 2" class="certificate-item__image">
+                        </a>
+                    </div>
+                    <div class="certificate-item" data-filter="provider2">
+                        <a href="https://www.seagertesting.com/certificates/Clayton_Nexthink_Certificate.pdf">
+                        <img src="./images/certificates/Nexthink_Associate_Badge.png" alt="Certificate 3" class="certificate-item__image">
+                        </a>
+                    </div>
+                    <div class="certificate-item" data-filter="provider1">
+                        <img src="./images/certificates/Google_ITSupport_Professional_Badge.png" alt="Certificate 3" class="certificate-item__image">
+                    </div>
+                    <!-- Add more certificate items -->
+                </div>
+            </section>
+
+
+
+            <!-- THIS SECTION IS FOR MY SKILLS -->
+            <section class="my-skills" id="skills">
+                <h2 class="section__title section__title--skillset">Skillset</h2>
+                <div class="container">
+                    <div class="skill">
+                        <img src="images/cloud.png" alt="A Cloud Icon" class="my-skills__icon">
+                        <h3 class="section__title--skills-header">Google Cloud</h3>
+                        <p class="section__paragraph-skills">Using Iaas, PaaS, & serverless Google Cloud Services to develop and design cloud solutions all on the Google Cloud Platform. </p>
+                    </div>
+
+                    <div class="skill">
+                        <img src="images/AD.png" alt="A Network Icon" class="my-skills__icon">
+                        <h3 class="section__title--skills-header">Microsoft Azure</h3>
+                        <p class="section__paragraph-skills">Managing Azure Active Directory and Policy Management, as well as Azure serverless services for large-scale deployment. </p>
+                    </div>
+
+                    <div class="skill">
+                        <img src="images/win10.png" alt="Windows 10 Logo" class="my-skills__icon">
+                        <h3 class="section__title--skills-header">Windows AD</h3>
+                        <p class="section__paragraph-skills">I have managed thousands of Active Directory accounts for computers and personnel.</p>
+                    </div>
+
+                    <div class="skill">
+                        <img src="images/improvement.png" alt="A Ribbon Badge Icon" class="my-skills__icon">
+                        <h3 class="section__title--skills-header">Improvement of Others</h3>
+                        <p class="section__paragraph-skills">I help lead efforts for colleagues and friends to achieve certifications, train for exams, and manage online learning.</p>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="skill">
+                        <img src="images/webdev.jpg" alt="Photo of HTML, CSS, Javascript Logo" class="my-skills__icon-webdev">
+                        <h3 class="section__title--skills-header">HTML, CSS, JS</h3>
+                        <p class="section__paragraph-skills">I understand and can code the core languages that make up web pages! Be sure to check out <a href="#work" class="skill-btn" >my work</a>!</p>
+                    </div>
+
+                    <div class="skill">
+                        <img src="images/linux.png" alt="Linux Logo" class="my-skills__icon">
+                        <h3 class="section__title--skills-header">Linux</h3>
+                        <p class="section__paragraph-skills">I have a proficient understanding of CLI commands in debian, and redhat distros. I have configured distributions with SSH and server configurations for connecting to Google Cloud. </p>
+                    </div>
+
+                    <div class="skill">
+                        <img src="images/cisco.png" alt="Cisco Logo" class="my-skills__icon-cisco">
+                        <h3 class="section__title--skills-header">Networking</h3>
+                        <p class="section__paragraph-skills">I have a strong growing knowledge of Cisco switches and routers, and practice in the Cisco NetAcademy and Packet Tracer regularly working towards my CCNA.</p>
+                    </div>
+
+                    <div class="skill">
+                        <a href="https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/57638750">
+                            <img src="images/cloudbadge.png" alt="Google Cloud Badge" class="my-skills__img">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        <hr>
+
+            <!-- About Me -->
+            <section class="about-me" id="about">
+                <h2 class="section__title section__title--about">Who I am</h2>
+                <p class="section__subtitle section__subtitle--about">Developer and Cloud Enthusiast based out of Michigan</p>
+
+                <div class="about-me__body">
+                    <p>I spent the first 8 years out of Highschool focusing on sales and sales management. While consulting for various companies, I was always focused on my hobbies in
+                    computer programming and networking. These hobbies were a lifelong passion, and I never focused on professionally developing my skills - until COVID struck. Once I was bound
+                    to my computer, I refocused my career and started aggressively studying and practicing my skills, to one day become a leader in cloud based DevSecOps and cloud architecture.</p>
+                </div>
+
+                <img src="images/MyPhoto.png" alt="Professional Photo of Clayton" class="about-me__img">
+            </section>
+
+            <!-- My Work -->
+            <section class="my-work mw-border" id="work">
+                <h2 class="section__title section__title--work">My Projects</h2>
+                <p class="section__subtitle section__subtitle--work">A small selection of my work. More coming soon!</p>
+
+                <div class="portfolio">
+                    <!-- This Website Project -->
+                    <figure>
+                        <a href="portfolio-item.html" class="portfolio__item">
+                            <img src="images/thiswebsite.png" alt="Seager Testing Website Project" class="portfolio__img">
+                        </a>
+                        <figcaption>My Website Portfolio Project</figcaption>
+                    </figure>
+                    <!-- LMC Capstone Project -->
+                    <figure>
+                        <a href="pacific13/index.html" class="portfolio__item">
+                            <img src="images/pacifictrails.png" alt="Description of the project" class="portfolio__img">
+                        </a>
+                        <figcaption>Lake Michigan College Capstone Project</figcaption>
+                    </figure>
+
+                    <!-- Portfolio item 3 -->
+                    <figure>
+                        <a href="#" class="portfolio__item">
+                            <img src="images/gcpproject.png" alt="Description of the project" class="portfolio__img">
+                        </a>
+                        <figcaption>Google Cloud Server Hosting</figcaption>
+                    </figure>
+                    <!-- Portfolio item 4 -->
+                    <figure>
+                        <a href="#" class="portfolio__item">
+                            <img src="images/portfolio-04.jpg" alt="Description of the project" class="portfolio__img">
+                        </a>
+                        <figcaption>Load Balancing & Data Buckets in GCP</figcaption>
+                    </figure>
+                </div>
+            </section>
+            <footer class="footer">
+                <a href="mailto:claytonseager@seagertesting.com" class="footer__link">claytonseager@seagertesting.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://codepen.io">
+                            <i class="fab fa-codepen"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.gizmodo.com.au/2021/05/darth-jar-jar-theory-explained/">
+                            <i class="fab fa-rebel"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://www.linkedin.com/in/claytonseager/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="social-list__item">
+                        <a class="social-list__link" href="https://github.com/ClaytonSeager">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                        <img class="w3c-validation"
+                             src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                             alt="Valid CSS!">
+                    </a>
+                </p>
+            </footer>
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>
