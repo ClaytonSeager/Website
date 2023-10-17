@@ -1454,13 +1454,14 @@ section .container {
 @keyframes textGlitch {
   0% {
     clip: rect(46px, 9999px, 45px, 0);
-    transform: translate(-5px, 0);
+    transform: translate(-2px, 0);
+    font-weight: bold;
     color: red;
   }
   5% {
     clip: rect(5px, 9999px, 100px, 0);
-    transform: translate(-5px, 0);
-    color: green;
+    transform: translate(-2px, 0);
+    color: #18d26e;
   }
   10% {
     clip: rect(30px, 9999px, 25px, 0);
@@ -1470,7 +1471,7 @@ section .container {
   15% {
     clip: rect(85px, 9999px, 10px, 0);
     transform: translate(-2px, 0);
-    color: yellow;
+    color: #18d26e;
   }
   20% {
     clip: rect(76px, 9999px, 31px, 0);
@@ -1480,17 +1481,18 @@ section .container {
   25% {
     clip: rect(24px, 9999px, 30px, 0);
     transform: translate(2px, 0);
-    color: cyan;
+    color: #18d26e;
   }
   30% {
     clip: rect(5px, 9999px, 65px, 0);
     transform: translate(2px, 0);
+    font-weight: bold;
     color: orange;
   }
   35% {
     clip: rect(95px, 9999px, 24px, 0);
     transform: translate(-2px, 0);
-    color: purple;
+    color: #18d26e;
   }
   40% {
     clip: rect(28px, 9999px, 47px, 0);
@@ -1500,7 +1502,7 @@ section .container {
   45% {
     clip: rect(20px, 9999px, 57px, 0);
     transform: translate(-5px, 0);
-    color: gray;
+    color: #18d26e;
   }
   50% {
     clip: rect(45px, 9999px, 30px, 0);
@@ -1510,7 +1512,7 @@ section .container {
   55% {
     clip: rect(60px, 9999px, 3px, 0);
     transform: translate(2px, 0);
-    color: indigo;
+    color: #18d26e;
   }
   60% {
     clip: rect(55px, 9999px, 70px, 0);
