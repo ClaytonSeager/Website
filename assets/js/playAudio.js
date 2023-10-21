@@ -64,7 +64,7 @@ smallPauseButton.addEventListener("click", togglePlayPause);
 function startGlitch() {
     const glitchElements = document.querySelectorAll('.textGlitch-animation');
     const randomDelay = Math.floor(Math.random() * 21) + 2;
-    const randomDelayInMilliseconds = randomDelay * 1000; // Convert to milliseconds
+    const randomDelayInMilliseconds = randomDelay * 1000;
 
 
     function applyGlitchAnimation() {
