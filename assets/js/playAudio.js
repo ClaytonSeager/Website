@@ -95,7 +95,7 @@ function updateMusicPlayerPositionAndSize() {
 function toggleSmallMusicPlayer() {
     const smallMusicPlayer = document.querySelector("#smallMusicPlayer");
     const musicContainer = document.querySelector("#musicPlayerWrapper");
-    if (window.innerWidth <= 1300) {
+    if (window.innerWidth <= 1598) {
         smallMusicPlayer.style.display = "flex";
         musicContainer.style.display = "none";
     } else {

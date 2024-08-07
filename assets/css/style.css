@@ -1332,7 +1332,7 @@ section .container {
   height: 175px;
   width: 175px;
   position: absolute;
-
+  overflow: hidden;
 }
 
 .musicPlayerImage {
