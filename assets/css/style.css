@@ -1525,3 +1525,7 @@ section .container {
     color: initial;
   }
 }
+
+.DigiLocker_Flex {
+  display: flex;
+}
